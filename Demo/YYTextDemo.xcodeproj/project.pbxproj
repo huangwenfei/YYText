@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2361AB972BF9FD1200D9A7D6 /* YYToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361AB962BF9FD1200D9A7D6 /* YYToolBarView.m */; };
 		D91054861F3735D20007F224 /* Animated image support.txt in Resources */ = {isa = PBXBuildFile; fileRef = D910547B1F3735D20007F224 /* Animated image support.txt */; };
 		D91054871F3735D20007F224 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D910547D1F3735D20007F224 /* YYAnimatedImageView.m */; };
 		D91054881F3735D20007F224 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D910547F1F3735D20007F224 /* YYFrameImage.m */; };
@@ -82,6 +83,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2361AB952BF9FD1200D9A7D6 /* YYToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYToolBarView.h; sourceTree = "<group>"; };
+		2361AB962BF9FD1200D9A7D6 /* YYToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYToolBarView.m; sourceTree = "<group>"; };
 		D910547B1F3735D20007F224 /* Animated image support.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animated image support.txt"; sourceTree = "<group>"; };
 		D910547C1F3735D20007F224 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
 		D910547D1F3735D20007F224 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
@@ -233,6 +236,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2361AB942BF9FCE100D9A7D6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2361AB952BF9FD1200D9A7D6 /* YYToolBarView.h */,
+				2361AB962BF9FD1200D9A7D6 /* YYToolBarView.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		D910547A1F3735D20007F224 /* YYImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +431,7 @@
 		D94EE98D1F37304200F37AD6 /* YYTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2361AB942BF9FCE100D9A7D6 /* Other */,
 				D910550F1F37367B0007F224 /* YYTextExample.h */,
 				D91055101F37367B0007F224 /* YYTextExample.m */,
 				D91055111F37367B0007F224 /* YYTextExampleHelper.h */,
@@ -581,6 +594,7 @@
 				D91054CB1F3735E50007F224 /* YYTextAttribute.m in Sources */,
 				D91055271F37367B0007F224 /* YYTextUndoRedoExample.m in Sources */,
 				D910551F1F37367B0007F224 /* YYTextCopyPasteExample.m in Sources */,
+				2361AB972BF9FD1200D9A7D6 /* YYToolBarView.m in Sources */,
 				D91054FB1F3736700007F224 /* UIGestureRecognizer+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -700,7 +714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
